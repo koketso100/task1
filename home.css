@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: whitesmoke;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+ul {
+
+    display: flex;
+    list-style-type: none;
+
+}
+
+li {
+
+    padding: 10%;
+
+
+}
+
+h2 {
+
+    
+    color: rgb(115, 20, 204);
+}
+
+h3 {
+
+    color: rgb(68, 48, 48);
+}
+
+.Hero-inform {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.hero-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+
+}
+
+.Hero-inform {
+    line-height: 3rem;
+    font-size: 2rem;
+
+}
+
+#name {
+    color: rgb(115, 20, 204);
+}
+
+#name1 {
+    color: #15bef1;
+}
+
+#name3 {
+    color: #30d3b0;
+}
+
+#name2 {
+    color: #5bfa70;
+}
+
+.btn{
+
+  background-color:rgb(115, 20, 204) ;
+  color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+
+.tech-stack{
+
+    text-align: center;
+}
+
+.tech-stack-icons{
+display: flex;
+list-style-type: none;
+
+
+}
+
+.tech-stack-informtion-below{
+    text-align: center;
+}
+
+.Blow-card-info{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(50%,auto));
+ align-items: center;
+ justify-content: center;
+
+ 
+ 
+
+}
+
+
+
